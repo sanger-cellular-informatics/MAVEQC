@@ -50,7 +50,7 @@ build-docker:
 tests:
   stage: test
   tags:
-    - autoscale
+    - autoscale-v2
   image: $DOCKER_IMAGE_NAME
   script:
     - echo "Running unit tests..."
